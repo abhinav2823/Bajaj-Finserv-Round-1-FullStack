@@ -108,4 +108,5 @@ app.use((err, _req, res, _next) => {
   return res.status(500).json({ is_success: false, error: 'Internal Server Error' });
 });
 
-module.exports = app;
+
+export default app;
